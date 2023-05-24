@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+#about-container{
+    flex: 1.4rem;
+    padding: 2rem 4rem;
+
+}
+#brand{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    align-items: center;
+    margin-bottom: 1.4rem;
+}
+#brand img{
+    height: 50px;
+    margin-right: 0.6rem;
+}
+#exclusive{
+    margin-bottom: 1rem;
+    color: #0075ff;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+#about-container h2{
+    font-size: 2.4rem;
+    max-width: 500px;
+    margin-bottom: 1rem;
+}
+#event-description{
+    margin-bottom: 1rem;
+    color: #aaa;
+}
+#description{
+    max-width: 500px;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+}
+#about-container h4{ 
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+#cards-container{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 1rem;
+
+}
+.cards-users{
+    border: 2px solid #ccc;
+    width: 180px;
+    text-align: center;
+    padding: 1rem;
+}
+.cards-users img{
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom: 1rem;
+}
+.cards-users .user-name{
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+.cards-users .role{
+    color: #aaa;
+    font-size: 0.9rem;
+}
+#forms-container{
+    background-image: url(img/pattern.png);
+    flex: 1;
+    background-size: cover;
+    color: #fff;
+  
+}
+#conteudo{
+    border: 2px solid #fff;
+    margin: 3rem;
+    padding: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#conteudo h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+#conteudo p{
+    margin-bottom:1rem ;
+}
+#forms{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+#name-container{
+    display: flex;
+    gap: 0.5rem;
+}
+#forms input{
+    padding: 0.8rem 0.6rem;
+    border: none;
+    border-radius: 3px;
+}
+#email{
+    min-width: 100%;
+}
+#forms input[type="submit"]{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#forms input[type="submit"]:hover {
+    background: #fff;
+    color: #0075ff;
+}
+#beneficios{
+    text-align: left;
+    align-self: start;
+}
+#beneficios h4{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+#beneficios ul{
+    list-style-position: inside;
+}
+#beneficios li{
+    margin-bottom: 0.5rem;
+}
